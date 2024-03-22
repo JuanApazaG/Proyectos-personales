@@ -39,3 +39,12 @@ h1 {
 }
 
 /** CODIGO AQUI **/
+
+@media (min-width: 768px) {
+   .tres-columnas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*esto es una forma de hacer*/
+    /* grid-template-columns: 33.3% 33.3% 33.3%; esto es una forma mas dificil porque es calculando */
+    column-gap:2rem;
+   }
+}
